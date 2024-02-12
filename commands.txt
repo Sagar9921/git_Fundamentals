@@ -4,7 +4,16 @@ git commit -m "message"
 git restore --staged filename
 rm commands.txt
 ls
+#TO RESTORE THE DELETED FILE BY GIT VERSION CANTROL SYSTEM
+
 git restore commands.txt
 ls
+
+#TO CHANGE THE USER NAME
+
+git config --global user.name "Sagar9011"
+git config --global user.email "sagarchandgude99@gmail.com"
+
+
 
 
