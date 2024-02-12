@@ -2,5 +2,9 @@ git init
 git add
 git commit -m "message"
 git restore --staged filename
+rm commands.txt
+ls
+git restore commands.txt
+ls
 
 
