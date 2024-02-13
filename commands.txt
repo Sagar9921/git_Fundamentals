@@ -19,7 +19,79 @@ git config --global user.email "sagarchandgude99@gmail.com"
 
 git log
 git log --oneline
+-----------------------------------------------------------------------------------------------------------------------
+#HTTPS Cloning of github to local machine
+#pull and push concepts
 
+
+  125  git status
+  126  git clone https://github.com/subhash-codes/Lane-Lines-Identification-System-Using-CNN.git
+  127  ls
+  128  cd Lane-Line-Identification-System-Using-CNN
+  129  cd Lane-Lines-Identification-System-Using-CNN
+  130  git status
+  131  ls
+  132  clear
+  133  ls
+  134  git pull originmain
+  135  cd ..
+  136  git clone https://github.com/Sagar9921/udemy-clone.git
+  137  ls
+  138  cd udemy-clone
+  139  ls
+  140  git status
+  141  git pull origin master
+  142  ls
+  143  git log
+  144  vim from_local.txt
+  145  git add from_local.txt
+  146  gti commit -m "File: Added file from local machine"
+  147  git commit -m "File: Added file from local machine"
+  148  ls
+  149  git push origin master
+  150  cd ..
+  151  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
+  152  cd udemy_clone
+  153  cd udemy-clone
+  154  git remote -v
+  155  git remote set-url origin  https://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@github.com/Sagar9921/udemy-clone.git
+  156  git remote -v
+  157  git push origin master
+  158  clear
+  159  history
+
+
+-------------------------------------------------------------------------------------------------------------------------------------
+
+#Connection of github using ssh
+
+ vim commands.txt
+  166  mkdir gitclone-ssh
+  167  cd gitclone-ssh
+  168  git clone git@github.com:Sagar9921/udemy-clone.git
+  169  cd .ssh
+  170  cd ..
+  171  cd .ssh
+  172  ssh-keygen
+  173  ls
+  174  cat githu_key.pub
+  175  cat github_key.pub
+  176  git clone git@github.com:Sagar9921/udemy-clone.git
+  177  cd..
+  178  cd ..
+  179  ls
+  180  cd git_Fundamentals
+  181  ls
+  182  cd gitclone-ssh
+  183  git clone git@github.com:Sagar9921/udemy-clone.git
+  184  cd ..
+  185  nano ~/.ssh/config
+  186  GIT_SSH_COMMAND="ssh -i /home/ubuntu/.ssh/github_key" git clone git@github.com:Sagar9921/udemy-clone.git
+  187  GIT_SSH_COMMAND="ssh -i /home/ubuntu/.ssh/github_key" git clone git@github.com:Sagar9921/rick-n-morty.git
+  188  ls
+
+
+----------------------------------------------------------------------------------------------------------------------------------
 
 
 
